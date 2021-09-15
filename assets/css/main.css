@@ -67,6 +67,10 @@ main {
   transition: transform .2s, box-shadow .2s;
 }
 
+.texto_card{
+  overflow:hidden;
+}
+
 .card:hover {
   transform: matrix(1.05, 0, 0, 1.05, 0, -10);
   cursor: pointer;
