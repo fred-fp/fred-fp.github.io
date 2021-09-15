@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  font-family: Poppins;
+  background-color: #36393f;
+  color: white;
+}
+
+header {
+  background-image: linear-gradient(#63b8a5, #1d968e);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: #f9dc25 solid 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f9dc25;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  background-image: url("../img/sapo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  max-width: 445px;
+  flex: 40%;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: matrix(1.05, 0, 0, 1.05, 0, -10);
+  cursor: pointer;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+
+}
+
+#mecanica {
+  background-image: url("../img/mecanica.png");
+}
+
+#termodinamica {
+  background-image: url("../img/termodinamica.jpg");
+}
+
+#ondulatoria {
+  background-image: url("../img/ondulatoria.png");
+}
+
+#eletromagnetismo {
+  background-image: url("../img/eletromagnetismo.jpg");
+}
+
+#astrofisica {
+  background-image: url("../img/astrofisica.jpg");
+}
+
+#quantica {
+  background-image: url("../img/quantica.jpg");
+}
+
+
+
+.texto_card {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1.5em;
+  border-bottom: 0px;
+  padding-bottom: 1px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+footer {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #f9dc25;
+}
+
+.separator {
+  height: 2px;
+  margin: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #f9dc25,
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.voltar{
+  float: left;
+  padding-left: 20px;
+}
+
+#link_sobre {
+  color: white;
+  text-decoration: none;
+}
+
+/* amarelo #f9dc25
+verde-azul claro #63b8a5
+verde-azul escuro #1d968e
+verde musgo #8ca041
+cinza #36393f */
