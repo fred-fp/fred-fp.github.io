@@ -4,30 +4,71 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Física por fredfp | Mecânica</title>
+        <title>Central da Física | Mecânica</title>
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/main.css" />
-        <link rel="stylesheet" href="./assets/css/mecanica.css" />
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
       </head>
   <body>
     <header>
-        <h1>Mecânica</h1>
-        <h2>Movimento, forças, trabalho, energia, etc.</h2>
+        <div class="titulo">
+            <h1>Mecânica</h1>
+            <h2>Movimento, forças, trabalho, energia, etc.</h2>
+        </div>
     </header>
 
-    <footer>
-        <a href="./index.html" class="voltar">voltar</a>
+    <section class="conteudo_pagina">
 
-        <br/>
+        <h4>
+            Velocidade
+        </h4>
+
+        <p class="paragrafo">
+            Velocidade é a taxa de variação da posição de um objeto em relação a um referencial em função do tempo. Velocidade é o equivalente a especificar a rapidez de um móvel, direção e sentido (ex: 60 km/h para o norte). Velocidade é um conceito fundamental da cinemática: o ramo da mecânica clássica que descreve o movimento de móveis.<br/>
+            <br/>
+            É uma grandeza vetorial, tipicamente representada por 
+            $$ \vec{v}$$
+            seu módulo, direção e sentido são necessários para defini-la. O módulo da velocidade (magnitude) é chamado de rapidez ou velocidade escalar, tipicamente representados por 
+        </p>
+
+        <h4>Velocidade média</h4>
+
+        <p class="paragrafo">
+            A velocidade média \( \vec{v_m} \) de um móvel é definida por:
+            
+            $$\vec{v_m} = \dfrac{\Delta \vec{S}}{\Delta t}$$
+
+            Sendo que \(\Delta \vec {S}\) corresponde ao vetor deslocamento de um móvel e \( \Delta t \) o intervalo de tempo necessário para realizar tal deslocamento. A velocidade média corresponde ao vetor velocidade constante que produz o mesmo deslocamento, em um mesmo intervalo de tempo, que um móvel em um movimento não uniforme.
+
+            A velocidade média de um móvel também pode ser calculada como a velocidade ponderada pelo tempo através da seguinte integral:
+
+            $$\vec{v_m} = \dfrac{1}{t_1 - t_0} \int_{t_0}^{t_1} \vec{v}(t)dt$$
+        </p>
+        <figure>
+            <img src="./assets/img/gif_velocidade.gif" alt="n deu n">
+        </figure>
+        
+
+    </section>
+
+    <footer>
+        <div class="separator"></div>
+
+        <a href="./index.html" class="voltar">voltar</a>
+  
+        <br />
 
         <p>Me encontre nas redes sociais!</p>
         <p id="sociais">
-            <a href="https://twitter.com/fredfp_" target="_blank">Twitter</a>
-            <a href="https://twitch.tv/fredfp" target="_blank">Twitch</a>
-            <a href="https://youtube.com/fredfp" target="_blank">Youtube</a>
-            <a href="https://github.com/fred-fp" target="_blank">Github</a>
-            <a href="https://www.tiktok.com/@fredfp" target="_blank">Tiktok</a>
+          <a href="https://twitter.com/fredfp_" target="_blank">Twitter</a>
+          <a href="https://twitch.tv/fredfp" target="_blank">Twitch</a>
+          <a href="https://youtube.com/fredfp" target="_blank">Youtube</a>
+          <a href="https://github.com/fred-fp" target="_blank">Github</a>
+          <a href="https://www.tiktok.com/@fredfp" target="_blank">Tiktok</a>
         </p>
     </footer>
+
   </body>
 </html>
