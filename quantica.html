@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Central da Física | Mecânica</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+      </head>
+  <body>
+    <header>
+        <div class="titulo">
+            <h1>Mecânica quântica</h1>
+            <h2>Função de onda, probabilidade, estados e superposição.</h2>
+        </div>
+    </header>
+
+    <section class="conteudo_pagina">
+
+        <h4>
+            Função de onda
+        </h4>
+
+        <p class="paragrafo">
+            A função de onda na mecânica quântica é uma construção matemática que auxilia a obtenção e interpretação dos resultados da equação de onda de Schrödinger:<br/>
+            $$ \frac{\hbar^2}{2m}\nabla^2 \psi(\vec{x},t) + V(\vec{x})\psi(\vec{x},t) = E\psi(\vec{x},t).$$
+            <br/>
+            Essa é equação de Schrödinger independente do tempo, cujas soluções -os valores de $\psi(\vec{x},t)$- vão representar perfil oscilatório no tempo. Porém sua amplitude é constante para cada ponto do espaço. 
+            O quadrado da amplitude de $\psi(\vec{x},t)$ representa a densidade de probabilidade de você encontrar a partícula descrita pelo sistema em um dado ponto do espaço ($\vec{x}$).
+        </p>
+        <h4>
+            Probabilidade
+        </h4>
+
+        <p class="paragrafo">
+            A função de onda $\psi(\vec{x},t)$, como resultado de uma equação diferencial de segunda orderm que é, possui uma solução complexa. Portanto para obtermos sempre uma densidade de probabilidade positiva, precisamos interpretar como probabilidade o quadrado do seu módulo: <br/>
+            $$ 1 = \int |\psi(\vec{x},t)|^2 dV = \int \psi(\vec{x},t)\psi(\vec{x},t)^* dV$$.
+            <br/>
+            Como o seu módulo quadráatico representa a densidade de probabilidade, a sua integral em todo o espaço deve ser igual a $1$, representando uma probabilidade de 100% da partícula simplesmente existir no volume do universo inteiro. 
+        </p>
+        
+    </section>
+
+    <footer>
+        <div class="separator"></div>
+
+        <a href="./index.html" class="voltar">voltar</a>
+  
+        <br />
+
+        <p>Me encontre nas redes sociais!</p>
+        <p id="sociais">
+          <a href="https://twitter.com/fredfp_" target="_blank">Twitter</a>
+          <a href="https://twitch.tv/fredfp" target="_blank">Twitch</a>
+          <a href="https://youtube.com/fredfp" target="_blank">Youtube</a>
+          <a href="https://github.com/fred-fp" target="_blank">Github</a>
+          <a href="https://www.tiktok.com/@fredfp" target="_blank">Tiktok</a>
+        </p>
+    </footer>
+
+  </body>
+</html>
