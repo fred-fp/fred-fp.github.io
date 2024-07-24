@@ -139,29 +139,31 @@ main {
 
 }
 
-#mecanica {
-  background-image: url("../img/mecanica.png");
+#blog {
+  background-image: url("../img/blog.jpg");
 }
 
-#termodinamica {
-  background-image: url("../img/termodinamica.jpg");
+#physics_wiki {
+    background-image: url("../img/physics_wiki.jpg");
+  }
+
+#projects {
+  background-image: url("../img/projects.png");
 }
 
-#ondulatoria {
-  background-image: url("../img/ondulatoria.png");
+#forum {
+  background-image: url("../img/forum.jpg");
 }
 
-#eletromagnetismo {
-  background-image: url("../img/eletromagnetismo.jpg");
+#scicomm {
+  background-image: url("../img/scicomm.png");
 }
 
-#astrofisica {
-  background-image: url("../img/astrofisica.jpg");
+#about_section {
+  background-image: url("../img/about.jpg");
 }
 
-#quantica {
-  background-image: url("../img/quantica.jpg");
-}
+
 
 .text_card {
   background-color: rgba(0, 0, 0, 0.6);
