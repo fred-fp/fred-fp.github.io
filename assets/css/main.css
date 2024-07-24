@@ -16,11 +16,11 @@ header {
   font-family: "Poppins";
 }
 
-#link_sobre:hover{
+#about_link:hover{
   text-decoration: underline;
 }
 
-.titulo{
+.title{
   width: 100%;
   flex:20%;
   text-align: left;
@@ -84,7 +84,7 @@ p{
   font-weight: 500;
 }
 
-.paragrafo{
+.paragraph{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
@@ -163,7 +163,7 @@ main {
   background-image: url("../img/quantica.jpg");
 }
 
-.texto_card {
+.text_card {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-bottom: 0px;
@@ -197,12 +197,12 @@ a {
   );
 }
 
-.voltar{
+.return{
   float: left;
   padding-left: 20px;
 }
 
-#link_sobre {
+#about_link {
   color: white;
   text-decoration: none;
 }
@@ -213,7 +213,7 @@ a {
   line-height: 2rem;
 }
 
-.paragrafo{
+.paragraph{
   font-weight: 300;
   margin-bottom: 30px;
   font-size: 1.4rem;
@@ -233,7 +233,7 @@ a {
 
   }
 
-  .titulo h1, h2{
+  .titlez h1, h2{
     text-align: center;
   }
 
@@ -241,7 +241,7 @@ a {
     margin: 10px;
   }
 
-  .texto_card{
+  .text_card{
     font-size: 200%;
   }
 
@@ -255,7 +255,7 @@ a {
     font-size: 2.5rem;
   }
 
-  .paragrafo{
+  .paragraph{
     font-size: 1.8rem;
   }
   
